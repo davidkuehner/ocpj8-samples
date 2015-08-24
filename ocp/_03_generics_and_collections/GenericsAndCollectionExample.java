@@ -195,6 +195,8 @@ public class GenericsAndCollectionExample implements Example {
 	 * Stream.forEach(Consumer)). Streams are lazy; computation on the source
 	 * data is only performed when the terminal operation is initiated, and
 	 * source elements are consumed only as needed.
+	 * 
+	 * https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html
 	 */
 	
 	/**

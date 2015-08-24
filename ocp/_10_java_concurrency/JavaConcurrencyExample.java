@@ -165,7 +165,9 @@ public class JavaConcurrencyExample implements Example {
 		 * A strict rule of courtesy is that when you bow to a friend, you must
 		 * remain bowed until your friend has a chance to return the bow.
 		 * Unfortunately, this rule does not account for the possibility that
-		 * two friends might bow to each other at the same time
+		 * two friends might bow to each other at the same time.
+		 * 
+		 * https://docs.oracle.com/javase/tutorial/essential/concurrency/deadlock.html
 		 */
 		Object lockA = new Object();
 		Object lockB = new Object();
@@ -204,6 +206,7 @@ public class JavaConcurrencyExample implements Example {
 		 * takes 10min to be brew. Gaston can take his break everyday only at
 		 * 10:05. As Gaston can ask only once per day the access to the coffee
 		 * machine he is now starving.
+		 *
 		 */
 		ReentrantLock lock = new ReentrantLock();
 		lock.lock(); // Consider that the main thread is aquaring the lock each
@@ -233,6 +236,8 @@ public class JavaConcurrencyExample implements Example {
 		 * This is comparable to two people attempting to pass each other in a
 		 * corridor: Alphonse moves to his left to let Gaston pass, while Gaston
 		 * moves to his right to let Alphonse pass
+		 * 
+		 * https://docs.oracle.com/javase/tutorial/essential/concurrency/starvelive.html
 		 */
 	}
 

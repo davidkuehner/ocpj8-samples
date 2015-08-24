@@ -24,13 +24,13 @@ public class JdbcExample implements Example {
 	 */
 	private void driverConnectionStatementResultSet() {
 		/**
-		 * Driver: Interface that every driver must implement. DriverManager:
-		 * Grant access to the Drivers Connection : Session with a specific
-		 * database. Statement : Used to execute SQL query (string) ResultQuery
-		 * : Result of statement.executeQuerry("SELECT * ...")
+		 * Driver: Interface that every driver must implement. 
+		 * DriverManager: Grant access to the Drivers 
+		 * Connection : Session with a specific database. 
+		 * Statement : Used to execute SQL query (string) 
+		 * ResultQuery : Result of statement.executeQuerry("SELECT * ...")
 		 * 
-		 * Before JDBC 4 : JWDriver driver =
-		 * Class.forName("com.jw.client.JWDriver)
+		 * Before JDBC 4 : JWDriver driver = Class.forName("com.jw.client.JWDriver)
 		 */
 	}
 
@@ -63,6 +63,7 @@ public class JdbcExample implements Example {
 		 * 4. Process the ResultSet object. 
 		 * 5. Close the connection.
 		 * 
+		 * http://eherrera.net/ocpj8-notes/11-building-database-applications-with-JDBC.html#describe-the-interfaces-that-make-up
 		 */
 		
 		String url = "jdbc:mysql://localhost:3306/data";
