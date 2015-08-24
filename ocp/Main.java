@@ -19,8 +19,8 @@ public class Main {
 //		runExampleOf(Chapter.JAVA_FILE_IO_NIO_2);
 //		runExampleOf(Chapter.JAVA_CONCURRENCY);
 //		runExampleOf(Chapter.BUILDING_DATABASE_APPLICATIONS_WITH_JDBC);
-		runExampleOf(Chapter.LOCALIZATION);
-//		runAll();
+//		runExampleOf(Chapter.LOCALIZATION);
+		runAll();
 	}
 	
 	private static void runExampleOf(Chapter chapter) {
